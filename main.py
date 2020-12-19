@@ -2,7 +2,7 @@
 """This is 
 more comments"""
 x=5
-y="XXX"
+y=" Sadegh Kalamat Sade "
 c1= 2-1j
 import random
 
@@ -17,6 +17,19 @@ def myfun():
 
 myfun()
 
-for i in str(str(z)+y):
-    print(i+".")
+#print(y.strip())
+y2= y.split("gh")
+#print(y.replace("Sade","Pichide").strip())
+print(y2[0][1:3])
+print(y2[1])
+j = 0
+for i in str(y[-4:].upper()):
+    j=j+1
+    print(i+str(j))
+
+if "Y" in z:
+    print("Y is found")
+else:
+    print("Y is not found")
+
 print("program ends here")

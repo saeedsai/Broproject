@@ -7,7 +7,7 @@ c1= 2-1j
 import random
 
 print("start of program")
-print(y)
+#print(y)
 def myfun():
     if (x>2):
         y="complex ="
@@ -16,7 +16,7 @@ def myfun():
         print("length: "+str(len(y))+" | "+str(c1+x-1j-4.2)+" | random = "+ str(random.randrange(1, 10)))
 
 myfun()
-
+"""
 #print(y.strip())
 y2= y.split("gh")
 #print(y.replace("Sade","Pichide").strip())
@@ -31,5 +31,15 @@ if "Y" in z:
     print("Y is found")
 else:
     print("Y is not found")
+    """
+
+"""quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1} \xaa."
+print(myorder.format(quantity, itemno, price))"""
+txt = "\x48\x65\x6c\x6c\x6f \f"
+print(txt) 
 
 print("program ends here")
+

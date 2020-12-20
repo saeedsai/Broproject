@@ -14,8 +14,9 @@ def myfun():
         global z 
         z="ZZZ"
         print("length: "+str(len(y))+" | "+str(c1+x-1j-4.2)+" | random = "+ str(random.randrange(1, 10)))
+        return True
 
-myfun()
+#myfun()
 """
 #print(y.strip())
 y2= y.split("gh")
@@ -38,8 +39,8 @@ itemno = 567
 price = 49.95
 myorder = "I want to pay {2} dollars for {0} pieces of item {1} \xaa."
 print(myorder.format(quantity, itemno, price))"""
-txt = "\x48\x65\x6c\x6c\x6f \f"
-print(txt) 
+#txt = "\x48\x65\x6c\x6c\x6f \f"
+print(myfun()) 
 
 print("program ends here")
 
